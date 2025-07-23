@@ -23,8 +23,6 @@ function App() {
   async function handleSubmit(e) {
     e.preventDefault()
 
-    console.dir(e.target)
-
     const url = "https://67c5b4f3351c081993fb1ab6.mockapi.io/api/posts";
 
     const options = {
